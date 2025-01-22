@@ -1,3 +1,8 @@
+# This script was created by Wellington Mendes and Guilherme Felisbino (UFU, 2025).
+# It extracts labeled intervals from TextGrid files and saves the timestamp results in an Excel workbook (.xlsx). 
+# The output organizes the columns "Start Time," "End Time," and "Label" from annotated intervals.
+# This script is distributed under the GNU General Public License.
+
 import os
 import re
 from openpyxl import Workbook
